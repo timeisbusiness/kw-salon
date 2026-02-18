@@ -1,0 +1,231 @@
+/* Réinitialisation de la marge et du padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #333;
+    padding: 0px 0;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+/* Style du logo */
+.logo a {
+    color: #0f0e0e;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style du menu */
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    transition: color 0.3s ease;
+}
+
+/* Effet au survol */
+.menu a:hover {
+    color: #f4a261; /* Couleur accentuée pour l'effet */
+    border-bottom: 2px solid #f4a261; /* Sous-ligne au survol */
+}
+
+/* Style de la couleur de fond du menu */
+.navbar {
+    background-color: #333;
+}
+/* Style du texte centré */
+.texte-centre {
+    position: absolute;
+    top: 50%; /* Place le texte au centre vertical */
+    left: 50%; /* Place le texte au centre horizontal */
+    transform: translate(-50%, -50%); /* Centrage parfait */
+    color: #090909; /* Texte en blanc pour ressortir sur l'image */
+    background-color: rgba(244, 244, 244, 0.987); /* Ombre noire semi-transparente pour améliorer la visibilité du texte */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%; /* Limite la largeur du texte */
+    font-size: 20px; /* Taille du texte */
+    line-height: 1.6; /* Espacement des lignes */
+}
+.image-section {
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    border: 10px solid rgb(241, 241, 241);
+    box-shadow: 0 4px 10px rgba(11, 74, 247, 0.903);
+    padding: 0;
+}
+
+/* Style de l'image */
+.image-accueil {
+    width: 100%; /* L'image prend toute la largeur */
+    height: auto;
+    display: block;
+}
+
+/* Style des sections */
+section {
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #6158e3;
+    color: #fff;
+    text-align: center;
+    padding: 9px 0;
+}
+/* Style des liens vers les réseaux sociaux */
+.social-links {
+    margin-top: 9px;
+}
+
+.social-links h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.social-links ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 15px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #f4a261;
+}
+
+.social-icon i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+}
+/* Container */
+.reservation-container {
+    width: 320px;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    
+}
+
+/* Title */
+.reservation-container h1 {
+    margin-bottom: 24px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #111;
+}
+
+/* Form layout */
+.reservation-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Labels */
+.reservation-container label {
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+}
+
+/* Inputs */
+.reservation-container input {
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Focus effect */
+.reservation-container input:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+.reservation-container button {
+    margin-top: 8px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.15s ease;
+}
+
+/* Button hover */
+.reservation-container button:hover {
+    background: #222;
+    transform: translateY(-1px);
+}
+
+.prix{
+    padding: 0;
+    border: 10px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(232, 232, 232, 0.903);
+}
+.contact{
+    border: 10px solid rgb(241, 238, 238);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(239, 229, 229, 0.903);
+    font-size: 25px;
+}
+.fond{
+    border: 10px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(232, 232, 232, 0.903);
+}
+a{
+    color: #ffffff;
+}
